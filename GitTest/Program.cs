@@ -6,7 +6,9 @@ namespace GitTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello New World!");
+            Console.WriteLine("Please enter your name : ");
+            string UserName = Console.ReadLine();
+            Console.WriteLine($"{UserName} , Welcome to New World!");
             Console.ReadLine();
         }
     }
