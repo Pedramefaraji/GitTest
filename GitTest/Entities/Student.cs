@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GitTest.Entities
 {
-    class Student
+    public class Student
     {
+        public int ID {set;get}// this added in github.com
     }
 }
