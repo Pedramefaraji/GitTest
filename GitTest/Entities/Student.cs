@@ -9,6 +9,6 @@ namespace GitTest.Entities
     public class Student
     {
         public int ID { set; get; }// this added in github.com
-
+public string LName  { set; get; }// this added in github.com
     }
 }
